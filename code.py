@@ -1,7 +1,6 @@
 import pandas as pd
-import numpy as np
 from collections import deque
-
+#Проверка клетки
 def is_valid_move(y, x, city_map_list):
     return 0 <= y < len(city_map_list) and 0 <= x < len(city_map_list[0]) and city_map_list[x][y] == 1
 
